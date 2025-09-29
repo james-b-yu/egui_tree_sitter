@@ -1,0 +1,12 @@
+[package]
+name = "egui_tree_sitter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+egui = "0.32"
+tree-sitter = { git = "https://github.com/tree-sitter/tree-sitter.git" }
+# tree-sitter = { path = "../../../tree-sitter/lib", version = "0.26.0" }
+
+[lints]
+workspace = true
